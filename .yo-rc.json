@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "prc391"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "ProjectCloud",
+    "packageName": "prc391",
+    "packageFolder": "prc391",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDY2ODRkZTNjOGI3MzExNGMxYzc5YTk0MGRkMTEzNTJlZDU3YmVjZmU4MjBlZDQyODY0NjNhM2Y5MDA2MjllNDJhM2YzMzRmYmUwMTExZjJmYTllYThjNGM2ZGM0ZWQwYjMzYmYzODMwYWQ4YmZlNzhlZjExZDZmYzhjZmJjMTg=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
