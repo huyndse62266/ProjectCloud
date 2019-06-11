@@ -36,9 +36,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/ProjectCloud?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://cloud.cdeuep935d81.ap-southeast-1.rds.amazonaws.com:3306/BookStore?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: root
+    password: 123456789
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -47,6 +47,7 @@ spring:
         prepStmtCacheSize: 250
         prepStmtCacheSqlLimit: 2048
         useServerPrepStmts: true
+      maximum-pool-size: 10
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: MYSQL
@@ -71,7 +72,7 @@ spring:
     cache: false
 
 server:
-  port: 8080
+  port: 5000
 
 # ===================================================================
 # JHipster specific properties
